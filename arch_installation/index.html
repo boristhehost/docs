@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="mdx-wrapper mdx-page plugin-pages plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.0.1">
+<title data-rh="true">Docs</title><meta data-rh="true" property="og:title" content="Docs"><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-docusaurus-site.example.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-docusaurus-site.example.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-docusaurus-site.example.com/arch_installation"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" name="description" content="Installation"><meta data-rh="true" property="og:description" content="Installation"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://your-docusaurus-site.example.com/arch_installation"><link data-rh="true" rel="alternate" href="https://your-docusaurus-site.example.com/arch_installation" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-site.example.com/arch_installation" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Docs RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Docs Atom Feed"><link rel="stylesheet" href="/assets/css/styles.1c022e41.css">
+<script src="/assets/js/runtime~main.87b88c93.js" defer="defer"></script>
+<script src="/assets/js/main.51a90e07.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">My Site</b></a><a class="navbar__item navbar__link" href="/docs/intro">Tutorial</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><main class="container container--fluid margin-vert--lg"><div class="row mdxPageWrapper_j9I6"><div class="col col--8"><article><p>Installation</p>
+<p><a href="https://wiki.archlinux.org/title/installation_guide" target="_blank" rel="noopener noreferrer">https://wiki.archlinux.org/title/installation_guide</a></p>
+<p>This video is used for the following steps: <a href="https://www.youtube.com/watch?v=DPLnBPM4DhI" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=DPLnBPM4DhI</a>
+<a href="https://files.catbox.moe/u3tkye.mp4" target="_blank" rel="noopener noreferrer">https://files.catbox.moe/u3tkye.mp4</a></p>
+<ul>
+<li>
+<p><code>iwctl</code></p>
+</li>
+<li>
+<p><code>device list</code> then connect to internet using
+<code>station &lt;device_name&gt; connect &lt;ssid&gt;</code> and <code>quit</code>. then ping it by to check if internet is working
+<code>ping x.org</code>.</p>
+</li>
+<li>
+<p>Update time with <code>timedatectl</code></p>
+</li>
+<li>
+<p>Partitioning  disk</p>
+<ul>
+<li>Check partition using <code>fdisk -l</code> or <code>lsblk</code> or <code>cfdisk</code></li>
+<li>Then <code>fdisk &lt;partition&gt;</code>
+eg: <code>fdisk /dev/sda</code>
+<ul>
+<li>
+<p>Type these commands in sequence:
+<code>p</code> to print information
+<code>o</code> to create new label
+<code>n</code> to add new partition. So many prompts will come just press enter to select default.</p>
+</li>
+<li>
+<p>Press <code>t</code> and Choose lvm by typing <code>8E</code> then type <code>a</code> to make partition active.</p>
+</li>
+<li>
+<p>Finalize change type <code>w</code> then enter</p>
+</li>
+</ul>
+</li>
+<li>Then create physical volume using
+<code>pvcreate --dataalignment 1m /dev/sda1</code></li>
+<li>Now create volume group
+<code>vgcreate volgroup0 /dev/sda1</code> . Here <code>volgroup0</code> is a group name.</li>
+<li>Now create 2 logical volumes ie lv_root and lv_home
+<code>lvcreate -L 30GB volgroup0 -n lv_root</code>
+and
+<code>lvcreate -l 100%FREE volgroup0 -n lv_home</code></li>
+<li>Load new volume group into memory
+<code>modprobe dm_mod</code></li>
+<li>Scan system for volume groups
+<code>vgscan</code> and activate it
+<code>vgchange -ay</code></li>
+</ul>
+</li>
+<li>
+<p>Formatting volumes</p>
+<ul>
+<li>
+<p>Now format these parttions. For root one , format it with ext4 and for swap one format with swap
+Ext4 formatting
+<code>mkfs.ext4 /dev/volgroup0/lv_root</code>
+Mounting
+<code>mount /dev/volgroup0/lv_root /mnt</code>
+ 
+Now format 2nd logical volume and mount it
+<code>mkfs.ext4 /dev/volgroup0/lv_home</code>
+Mounting
+<code>mkdir /mnt/home</code>
+<code>mount /dev/volgroup0/lv_home /mnt/home</code>
+ 
+If there r swap partitions then
+Format the Swap Partition (if created): If you created a swap partition, format it as swap:
+<code>mkswap /dev/sdX2</code>  # Replace /dev/sdX2 with your swap partition
+<code>swapon /dev/sdX2</code> # Activate the swap partition
+ 
+<code>mkdir /mnt/etc</code>
+Saving partition layout by:
+<code>genfstab -U -p /mnt &gt;&gt; /mnt/etc/fstab</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>For UEFI
+Difference here is that we need to create efi partition
+After typing <code>fdisk /dev/sda</code> type these commands:
+<code>p</code> and <code>g</code>(for new GPT) , <code>n</code> then</p>
+<ul>
+<li>Partition number and First sector is default but for last sector we need to change it So type <code>+500M</code> as 500mb is enough for efi
+ 
+Now type <code>t</code> and and partition type is <code>1</code> which means efi</li>
+<li>Now one more partition for rest
+So type <code>n</code> and just select defaults and set the type with <code>t</code> and set to lvm<!-- -->
+<ul>
+<li>Partition number would be 2 which is default</li>
+<li>Type <code>30</code> for lvm</li>
+</ul>
+</li>
+<li>Finally verify it by <code>p</code> and type <code>w</code> to make changes
+ 
+For parttion 1 ie efi , it have to be formatted with fat32
+<code>mkfs.fat -F32 /dev/sda1</code>
+Here <code>-F32</code> represents fat32
+Now instead of creating and volume and setting other steps for lvm use sda2 instead of sda1 .</li>
+</ul>
+</li>
+<li>
+<p>For UEFI with encryption</p>
+<p><img loading="lazy" alt="arch_ueqfi_encryption_part_scheme.png" src="/assets/images/arch_ueqfi_encryption_part_scheme-a3412f772e3b7bd7003335a114f46ee6.png" width="1080" height="226" class="img_ev3q">
+this should be. 1st to efi,2nd to linux filesystem and 3rd to linux lvm
+ 
+Do same for efi and set ext4 for partition 2 but before formatting 4rd we need to encrypt it</p>
+<ul>
+<li>
+<p>Setting encryption
+<code>cryptsetup luksFormat /dev/sda3</code>
+Now u need to type passphrase. This passphrase should be available else all data will remain encrypted and inaccessible. After typing passphrase it will get locked so type
+<code>cryptsetup open --type luks /dev/sda3 lvm</code></p>
+<p>Now just create volume , format and mount<br>
+<code>pvcreate --dataalignment 1m /dev/mapper/lvm</code>
+ </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Installing components</p>
+<ul>
+<li>Using pacstrap command
+<code>pacstrap -i /mnt base</code></li>
+<li>Configure our installation
+<code>arch-chroot /mnt</code> Using in chroot environment. arch-chroot is like a fake-root which change to new directory so that u can make changes af if they r live but all those changes will take place in future.<!-- -->
+<ul>
+<li>
+<p>Inside chroot, install 4 packages ie linux, linux-headers and linux-lts, linux-lts-headers. 2 versions bcz if one dont work then other may work. lts means here &#x27;long term support&#x27; hence stable. Use
+<code>pacman -S linux linux-headers linux-lts linux-lts-headers</code>
+Then few more packages like nano, base-devel(basic development tools), openssh(remote access)
+To use openssh make sure to enable sshd
+<code>systemctl enable sshd</code>
+ 
+Install packages for  network working
+<code>pacman -S networkmanager wpa_supplicant wireless_tools netctl</code>
+ 
+installing dialog if gui network interface not working
+<code>pacman -S dialog</code>
+Then finally enable NetworkManager so it will be started when booted
+<code>systemctl enable NetworkManager</code>
+ 
+Installing lvm support
+<code>pacman -S lvm2</code>
+ 
+To ensure boot process support our configuration, we have to modify a config file
+<code>nano /etc/mkinitcpio.conf</code>
+now using Ctrl+W find the <code>HOOKS</code> which is not commented. Between block and filesystems word,
+add <code>lvm2</code> . if used encryption then add <code>encrypt lvm2</code>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Resizing partition
+<code>lvdisplay</code> and <code>vgdisplay</code>
+ 
+Shrink LV
+If something goes wrong with length of partition then u need to resize it
+<code>umount /dev/VG_NAME/lv_home</code>  # Unmount the LV (replace VG_NAME with your volume group)
+<code>e2fsck -f /dev/volgroup0/lv_home</code> # to check file system consistency and check for errors,bad block.
+<code>resize2fs /dev/VG_NAME/lv_home NEW_SIZE</code>  # Shrink the filesystem
+<code>lvreduce -L NEW_SIZE /dev/VG_NAME/lv_home</code>  # Shrink the logical volume
+ 
+Extend LV
+<code>lvextend -L +NEW_SIZE /dev/VG_NAME/lv_root</code>  # Extend the logical volume
+or
+<code>lvextend -l +100%FREE /dev/VG_NAME/lv_root</code>
+<code>e2fsck -f /dev/volgroup0/lv_root</code>
+<code>resize2fs /dev/VG_NAME/lv_root</code>  # Resize the filesystem to use the new space</p>
+</li>
+<li>
+<p>Initramfs
+To take all these setups and option take effect use this
+<code>mkinitcpio -p linux</code>
+<code>mkinitcpio -p linux-lts</code>(As this was also installed)
+Then set the locale by
+<code>nano /etc/locale.gen</code>
+Then choose en us and uncomment it
+<code>locale-gen</code>
+ 
+Updating password
+<code>passwd</code> then type password to set it
+ 
+Creating standard user
+<code>useradd -m -g users -G wheel hvm</code>
+<code>-m</code> means creating home directory for the user, <code>-g</code> represents initial login group, <code>-G</code> are other supplementary groups. <code>hvm</code> is user name.
+Then set password for this user
+<code>passwd hvm</code> and set password.
+After this we dont have to use root account always, instead we can use sudo
+ 
+Now we need to associate wheel group with sudo
+<code>EDITOR=nano visudo</code>
+<code>visudo</code> is a dedicated command to modify sudo priviledges
+Scroll down and search for <code>%wheel ALL=(ALL:ALL) ALL</code>  and uncomment it and save the file.
+Now user can use sudo to run administrative task.</p>
+</li>
+<li>
+<p>Installing GRUB
+Its purpose is to boot the OS without bootable media like USB or CD.</p>
+<ul>
+<li>For non-UEFI(BIOS)
+Install this:
+<code>pacman -S grub dosfstools os-prober mtools</code>
+and finally
+<code>grub install --target=i386-pc --recheck /dev/sda</code>
+ </li>
+<li>For UEFI install these
+<code>pacman -S grub efibootmgr dosfstools os-prober mtools</code>
+ 
+<code>mkdir /boot/EFI</code>
+<code>mount /dev/sda1 /boot/EFI</code>
+and finally
+<code>grub-install --target=86 64-efi --bootloader-id=grub uefi recheck</code>
+ 
+Check if grub exists by this:
+<code>ls -l /boot/grub</code>
+ <!-- -->
+<ul>
+<li>Others
+<code>cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo</code>
+<ul>
+<li>With encryption
+<code>nano /etc.default/grub</code> then uncomment <code>GRUB_ENABLE_CRYPTODISK=y</code>
+and edit the line
+#add this 		 GRUB_CMDLINE_LINUX_DEFAULT=&quot;cryptodevice=/dev/sda3:volgroup0<!-- -->:allow-discards<!-- -->  loglevel=3 quiet&quot;
+ </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Generate grub config file
+<code>grub-mkconfig -o /boot/grub/grub.cfg</code>
+Finally
+<code>exit</code>  and <code>umount -a</code> (to unmount everything)
+Finally <code>reboot</code>
+ </li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="post-install-tweeks">Post install tweeks<a href="#post-install-tweeks" class="hash-link" aria-label="Direct link to Post install tweeks" title="Direct link to Post install tweeks">​</a></h3>
+<ul>
+<li>
+<p>Creating swap file(not partition)
+<code>su</code>
+<code>cd /root</code>
+The dd command in Linux is a versatile utility used for copying and converting files, including data from files, devices, partitions, or even raw disk images. The command&#x27;s name, &quot;dd,&quot; stands for &quot;data duplicator.&quot;
+<code>dd if=/dev/zero of=/swapfile bs=1M count=1024 status=progress</code>
+Changing permissions of swapfile
+<code>chmod 600 /swapfile</code>
+Formatting it to swap
+<code>mkswap /swapfile</code>
+Backing up copy of fstab file as we going to edit it
+<code>cp /etc/fstab /etc/fstab.bak</code>
+Editing it
+<code>echo &#x27;/swapfile none swap sw 0 0&#x27; | tee -a /etc/fstab</code>
+It will add the line
+ 
+<code>free -m</code> to check is swap is there
+<code>mount -a</code>(if it runs means no error)</p>
+<p>To activate swap
+<code>swapon -a</code> and check it with <code>free -m</code>
+ </p>
+<ul>
+<li>
+<p>Setting time zone
+Listing it
+<code>timedatectl list-timezones</code>
+Setting it
+<code>timedatectl set-timezone &lt;from_list&gt;</code>
+Enabling it
+<code>systemctl enable systemd-timesyncd</code>
+ 
+Setting host name
+<code>hostnamectl set-hostname archhost</code> here &#x27;archhost&#x27; is host name
+Editing hosts file
+<code>nano /etc/hosts</code>
+and add</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">127.0.0.1 localhost</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">127.0.1.1 archhost</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>and save it
+To check it
+<code>hostnamectl</code>
+This image will be the output</p>
+<p><img loading="lazy" alt="arch vm_outhostnamectl.png" src="data:image/png;base64,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" width="485" height="244" class="img_ev3q">
+ 
+<strong>Installing micro code for CPU</strong>(optional)
+AMD CPU
+<code>pacman -S amd-ucode</code>
+or
+Intel CPU
+<code>pacman -S intel-ucode</code>
+ </p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>GUI</strong></p>
+<ul>
+<li>
+<p>Installing xorg
+<code>pacman -S xorg-server</code></p>
+</li>
+<li>
+<p>Installing video driver
+For Intel or AMD GPU
+<code>pacman -S mesa</code>
+For NVIDIA GPU
+<code>pacman -S nvidia-lts nvidia</code>
+For VBox
+<code>pacman -S virtualbox-guest-utils xf86-video-vmware</code>
+and enable vbox extension
+<code>systemctl enable vboxservice</code>
+For QEMU, this might improve performance
+<code>sudo pacman -S xf86-video-qxl </code>
+And configure it too
+<code>sudo mkdir -p /etc/X11/xorg.conf.d</code>
+<code>sudo nano /etc/X11/xorg.conf.d/20-qxl.conf </code>
+Type this</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Section &quot;Device&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Identifier &quot;qxl&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Driver &quot;qxl&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Option &quot;AccelMethod&quot; &quot;glamor&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">EndSection</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>and save it</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Installing Desktop Environment</p>
+<ul>
+<li>GNOME
+<code>pacman -S GNOME</code>
+it will store many dependencies as its a package group
+Some other optional
+<code>pacman -S gnome-tweaks</code> this will give more control over the environment
+ 
+Enable display manager
+<code>systemctl enable gdm</code>
+This will enable login screen
+Specify the language in Region and Language section else terminal wont open</li>
+<li>Plasma
+<code>pacman -S plasma-meta kde-applications</code>
+Enable display manager
+<code>systemctl enable sddm</code></li>
+</ul>
+</li>
+<li>
+<p>Xfce
+<code>pacman -S xfce4 xfce4-goodies</code>
+Install display manager
+<code>pacman -S lightdm lightdm-gtk-greeter</code>
+Enabling it
+<code>systemctl enable lightdm</code></p>
+</li>
+</ul></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#post-install-tweeks" class="table-of-contents__link toc-highlight">Post install tweeks</a></li></ul></div></div></div></main></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2023 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
